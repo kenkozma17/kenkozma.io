@@ -1,0 +1,38 @@
+/** Flex Grid */
+.grid {
+  &, .row {
+    position: relative;
+    width: 100%;
+    @include mq-min() {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+
+
+  &.no-padding {
+    [class*="col-"] {
+      padding: 0;
+    }
+  }
+
+  /** Columns **/
+  [class*="col-"] {
+    position: relative;
+    margin-right: auto; // align flexbox items to the left after they wrap
+    flex: 1;
+  }
+  @for $i from 1 through $total-cols {
+    .col-#{$i} {
+      width: decimal-floor(100% / $total-cols * $i);
+      max-width: decimal-floor(100% / $total-cols * $i);
+      flex-basis: decimal-floor(100% / $total-cols * $i);
+      @include mq-max() {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

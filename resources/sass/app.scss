@@ -1,1 +1,14 @@
-@import 'home';
+/* Variables and Functions **/
+@import "vars";
+@import "functions";
+
+/* Mixins **/
+@import "mixins/media-queries";
+
+/* Components **/
+@import "components/grid";
+@import "components/main";
+@import "components/navigation";
+
+/* Typography **/
+@import "partials/typography";

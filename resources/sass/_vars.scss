@@ -1,0 +1,16 @@
+/* Grid Variables **/
+$total-cols: 12;
+
+/* Screen Sizes **/
+$xsmall-min-bp: 450px;
+$xsmall-max-bp: ($xsmall-min-bp - 1);
+$small-min-bp: 769px;
+$small-max-bp: ($small-min-bp - 1);
+$medium-min-bp: 1000px;
+$medium-max-bp: ($medium-min-bp - 1);
+
+/* Colors **/
+$primary-color: #F6F6F8;
+
+/* Fonts **/
+$primary-font: 'inter-regular', serif;
