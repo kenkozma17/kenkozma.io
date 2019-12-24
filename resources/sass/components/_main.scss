@@ -3,13 +3,36 @@ body {
   padding: 0;
   margin: 0;
   font-family: $primary-font;
-  width: 5000px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  min-width: 150vw;
+  height: 100%;
 }
 
-#app {
-  width: 100vw;
+html {
+  height: 100%;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.main {
+  height: 100%;
+  position: relative;
+
+  .horizon {
+    height: 100%;
+    display: flex;
+
+    .container {
+      padding: 7em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    img {
+      width: 300px;
+    }
+  }
 }

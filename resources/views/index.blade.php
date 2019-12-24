@@ -12,13 +12,12 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
-        <div id="app">
+        <div id="app" class="main">
             <navigation></navigation>
             
-            <div class="grid row">
-                <div class="col-6"></div>
-                <div class="col-6">
-                    <img src="/images/Ken.jpg" alt="">
+            <div class="horizon">
+                <div class="container">
+                    <img src="/images/Ken.jpg">
                 </div>
             </div>
         </div>
