@@ -10,17 +10,18 @@
 
         <? # Jquery ?>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <? # Fonts ?>
+        <link rel="stylesheet" href="https://use.typekit.net/kyv3ntu.css">
     </head>
     <body>
+
         <div id="app" class="main">
             <navigation></navigation>
-            
-            <div class="horizon">
-                <div class="container">
-                    <img src="/images/Ken.jpg">
-                </div>
-            </div>
+            <frontpage></frontpage>
+            <contact-form></contact-form>
         </div>
+
 
         <? # JavaScript Bundle ?>
         <script src="{{ mix('/js/app.js') }}"></script>

@@ -1,13 +1,31 @@
 .navigation {
-  display: flex;
   position: fixed;
-  padding: 3em 6em;
-  justify-content: flex-end;
-  top: 0;
-  left: 0;
   right: 0;
+  left: 0;
+  background: transparent;
+  z-index: 1;
+  .container {
+    display: flex;
+    width: 100%;
+    padding: 3em 0;
+  }
+
+  .align-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .align-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
 
   .nav-item {
-    padding: 0 1.5em;
+    padding: 0.6em 1.4em;
+    transition: 0.7s ease-in-out;
+    &:hover {
+      background: rgba(222, 222, 222, 0.2);
+    }
   }
 }

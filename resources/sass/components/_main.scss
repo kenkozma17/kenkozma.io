@@ -3,36 +3,61 @@ body {
   padding: 0;
   margin: 0;
   font-family: $primary-font;
-  min-width: 150vw;
+  color: #fff;
   height: 100%;
+  width: 100%;
 }
 
-html {
-  height: 100%;
-}
 body, html {
   width: 100%;
   height: 100%;
-  overflow-y: hidden;
 }
 
 .main {
   height: 100%;
   position: relative;
 
-  .horizon {
-    height: 100%;
+  .front-page {
+    min-height: 100vh;
+    width: 100%;
+    background: url(/images/Hero.jpg);
+    background-size: cover;
+    background-position: left;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
-    .container {
-      padding: 7em;
+    .content {
+      padding: 2em 2em;
+      background: rgba(107,107,107,0.2);
+    }
+    .content .sub-title {
+      font-size: 1.5em;
+    }
+
+    .pointer {
+      position: absolute;
+      bottom: 15px;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
+      cursor: pointer;
     }
 
-    img {
-      width: 300px;
+    .pointer .down-arrow {
+      width: 2.5em;
+      margin: 1.5em 0;
     }
+  }
+}
+
+.wrapper {
+  position: relative;
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  @include mq-min() {
+    max-width: 90%;
   }
 }

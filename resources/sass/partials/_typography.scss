@@ -1,5 +1,16 @@
 /** Typography */
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+  font-family: $secondary-font;
+}
+
+h1 {
+  font: 300 5em $tertiary-font;
+  letter-spacing: 2px;
+  margin: 0;
 }
