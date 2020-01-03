@@ -19450,9 +19450,60 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "contact" }, [_vm._v("\ns\n    ")])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "contact" }, [
+      _c("div", { staticClass: "wrapper" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("h2", [_vm._v("Get in touch")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "field" }, [
+            _c("label", { attrs: { for: "name" } }, [_vm._v("Name")]),
+            _vm._v(" "),
+            _c("input", {
+              attrs: { type: "text", name: "name", placeholder: "John Mayor" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "field" }, [
+            _c("label", { attrs: { for: "email" } }, [_vm._v("Email Address")]),
+            _vm._v(" "),
+            _c("input", {
+              attrs: {
+                type: "email",
+                name: "email",
+                placeholder: "you@website.com"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "field" }, [
+            _c("label", { attrs: { for: "subject" } }, [_vm._v("Subject")]),
+            _vm._v(" "),
+            _c("input", { attrs: { type: "text", name: "subject" } })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "field" }, [
+            _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
+            _vm._v(" "),
+            _c("textarea", { attrs: { name: "message", rows: "5" } })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "submit-field" }, [
+            _c("a", { staticClass: "submit-btn", attrs: { href: "#" } }, [
+              _vm._v("Send It!")
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -19487,7 +19538,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-6" }),
           _vm._v(" "),
           _c("div", { staticClass: "col-6" }, [
-            _c("div", { staticClass: "content" }, [
+            _c("div", { staticClass: "content card" }, [
               _c("h1", { staticClass: "title" }, [_vm._v("Ken Kozma")]),
               _vm._v(" "),
               _c("div", { staticClass: "sub-title" }, [
@@ -31733,6 +31784,22 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/js/3DHover.js":
+/*!*********************************!*\
+  !*** ./resources/js/3DHover.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var card = $(".card");
+$(document).on("mousemove", function (e) {
+  var ax = -($(window).innerWidth() / 2 - e.pageX) / 100;
+  var ay = ($(window).innerHeight() / 2 - e.pageY) / 50;
+  card.attr("style", "transform: rotateY(" + ax + "deg)" + " rotateX(" + ay + "deg);-webkit-transform: " + " rotateY(" + ax + "deg)" + " rotateX(" + ay + "deg);-moz-transform: " + " rotateY(" + ax + "deg)" + " rotateX(" + ay + "deg)");
+});
+
+/***/ }),
+
 /***/ "./resources/js/Spa.js":
 /*!*****************************!*\
   !*** ./resources/js/Spa.js ***!
@@ -31762,6 +31829,8 @@ new Vue({
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./Spa */ "./resources/js/Spa.js");
+
+__webpack_require__(/*! ./3DHover */ "./resources/js/3DHover.js");
 
 /***/ }),
 

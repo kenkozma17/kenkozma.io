@@ -4,7 +4,7 @@
             <div class="grid row">
                 <div class="col-6"></div>
                 <div class="col-6">
-                    <div class="content">
+                    <div class="content card">
                         <h1 class="title">Ken Kozma</h1>
                         <div class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

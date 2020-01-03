@@ -219,7 +219,6 @@ Convert a pixel value to the em value (relative to the parent container's font-s
 }
 
 body {
-  background-color: #F6F6F8;
   padding: 0;
   margin: 0;
   font-family: "inter-regular", sans-serif;
@@ -254,13 +253,29 @@ html {
   position: relative;
 }
 
+.main .front-page .card {
+  pointer-events: none;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  border-radius: 5px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
 .main .front-page .content {
   padding: 2em 2em;
-  background: rgba(107, 107, 107, 0.2);
+  background: rgba(107, 107, 107, 0.3);
 }
 
 .main .front-page .content .sub-title {
   font-size: 1.5em;
+  -webkit-transform: translateZ(50px);
+          transform: translateZ(50px);
+}
+
+.main .front-page .content .title {
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
 }
 
 .main .front-page .pointer {
@@ -335,6 +350,60 @@ html {
   background: rgba(222, 222, 222, 0.2);
 }
 
+.contact {
+  background: grey;
+  width: 100%;
+  padding: 3em 0;
+}
+
+.contact .container {
+  display: -webkit-box;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: start;
+          align-items: flex-start;
+}
+
+.contact .container .field {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  width: 100%;
+  padding: 0.5em 0;
+}
+
+.contact .container .field label {
+  padding: 0.35em 0;
+}
+
+.contact .container .field input[type=text],
+.contact .container .field input[type=email],
+.contact .container .field textarea {
+  border: none;
+  border-radius: 2px;
+  padding: 1em;
+  font-size: 0.89em;
+}
+
+.contact .container .submit-field {
+  display: -webkit-box;
+  display: flex;
+  padding: 0.5em 0;
+}
+
+.contact .container .submit-field .submit-btn {
+  padding: 0.6em 1em;
+  background: #95A7AE;
+  border-radius: 3px;
+  color: black;
+}
+
 /* Typography **/
 
 /** Typography */
@@ -352,6 +421,11 @@ p {
 h1 {
   font: 300 5em "bebas-neue", sans-serif;
   letter-spacing: 2px;
+  margin: 0;
+}
+
+h2 {
+  font: 300 2.5em "inter-regular", sans-serif;
   margin: 0;
 }
 
