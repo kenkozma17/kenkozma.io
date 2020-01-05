@@ -1,5 +1,4 @@
 .contact {
-  background: grey;
   width: 100%;
   padding: 3em 0;
 
@@ -9,6 +8,7 @@
     margin: auto;
     flex-direction: column;
     align-items: flex-start;
+    color: #000;
   }
   .container .field {
     display: flex;
@@ -20,8 +20,8 @@
     padding: 0.35em 0;
   }
   .container .field input[type='text'], .container .field input[type='email'], .container .field textarea  {
-    border: none;
-    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 3px;
     padding: 1em;
     font-size: 0.89em;
   }
@@ -31,9 +31,17 @@
 
     .submit-btn {
       padding: 0.6em 1em;
-      background: #95A7AE;
+      background: $light-blue;
+      border-color: $light-blue;
       border-radius: 3px;
-      color: black;
+      cursor: pointer;
+      color: #fff;
+      font-size: 1em;
+      transition: 0.5s ease-in;
+      &:hover {
+        background: $light-blue-hover;
+        border-color: $light-blue-hover;
+      }
     }
   }
 }

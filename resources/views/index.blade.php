@@ -19,6 +19,7 @@
         <div id="app" class="main">
             <navigation></navigation>
             <frontpage></frontpage>
+            <about></about>
             <contact-form></contact-form>
         </div>
 

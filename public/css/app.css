@@ -219,6 +219,7 @@ Convert a pixel value to the em value (relative to the parent container's font-s
 }
 
 body {
+  background: #F6F6F8;
   padding: 0;
   margin: 0;
   font-family: "inter-regular", sans-serif;
@@ -315,6 +316,20 @@ html {
   left: 0;
   background: transparent;
   z-index: 1;
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+}
+
+.navigation.sticky {
+  background: white;
+}
+
+.navigation.sticky .nav-item {
+  color: #191919;
+}
+
+.navigation.sticky .container {
+  padding: 1em 0;
 }
 
 .navigation .container {
@@ -322,6 +337,8 @@ html {
   display: flex;
   width: 100%;
   padding: 3em 0;
+  -webkit-transition: padding 0.5s;
+  transition: padding 0.5s;
 }
 
 .navigation .align-left {
@@ -351,7 +368,6 @@ html {
 }
 
 .contact {
-  background: grey;
   width: 100%;
   padding: 3em 0;
 }
@@ -366,6 +382,7 @@ html {
           flex-direction: column;
   -webkit-box-align: start;
           align-items: flex-start;
+  color: #000;
 }
 
 .contact .container .field {
@@ -385,8 +402,8 @@ html {
 .contact .container .field input[type=text],
 .contact .container .field input[type=email],
 .contact .container .field textarea {
-  border: none;
-  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
   padding: 1em;
   font-size: 0.89em;
 }
@@ -399,9 +416,25 @@ html {
 
 .contact .container .submit-field .submit-btn {
   padding: 0.6em 1em;
-  background: #95A7AE;
+  background: #178ED5;
+  border-color: #178ED5;
   border-radius: 3px;
-  color: black;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1em;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+.contact .container .submit-field .submit-btn:hover {
+  background: #36AFF6;
+  border-color: #36AFF6;
+}
+
+.about {
+  padding: 5em 0;
+  background: #191919;
+  color: #fff;
 }
 
 /* Typography **/

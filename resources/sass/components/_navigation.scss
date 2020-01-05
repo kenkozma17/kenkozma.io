@@ -4,10 +4,21 @@
   left: 0;
   background: transparent;
   z-index: 1;
+  transition: background 0.5s ease;
+  &.sticky {
+    background: white;
+    .nav-item {
+      color: $soothing-black;
+    }
+    .container {
+      padding: 1em 0;
+    }
+  }
   .container {
     display: flex;
     width: 100%;
     padding: 3em 0;
+    transition: padding 0.5s;
   }
 
   .align-left {
