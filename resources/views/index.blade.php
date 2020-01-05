@@ -11,6 +11,9 @@
         <? # Jquery ?>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+        <? # Lity ?>
+        <link href="{{ mix('/css/lity.css') }}" rel="stylesheet">
+
         <? # Fonts ?>
         <link rel="stylesheet" href="https://use.typekit.net/kyv3ntu.css">
     </head>
@@ -20,6 +23,7 @@
             <navigation></navigation>
             <frontpage></frontpage>
             <about></about>
+            <work></work>
             <contact-form></contact-form>
         </div>
 

@@ -2,4 +2,69 @@
   padding: 5em 0;
   background: $soothing-black;
   color: #fff;
+
+  .title {
+    padding: 0 0 0.5em 0;
+  }
+
+  .section {
+    padding: 0 0 3em 0;
+  }
+  .section .container {
+    padding: 0 3em 0 0;
+  }
+
+  .bio {
+    .description {
+      font-size: 1.1em;
+      line-height: 1.38;
+      letter-spacing: 0.015em;
+    }
+    span {
+      color: $light-blue;
+    }
+  }
+
+  .languages {
+    .skill-set {
+      padding: 0 0 0.85em 0;
+    }
+    .skill-set .sub-title {
+      font-weight: bolder;
+    }
+    .skill-set .skills {
+      font-weight: 100;
+      font-size: 0.9em;
+      color: $light-grey;
+      padding: 0.1em 0 0 0;
+    }
+    .resume {
+      font-size: 0.9em;
+      color: $light-grey;
+    }
+  }
+
+  .social {
+    .social-icon {
+      width: 1.2em;
+      padding: 0 0.5em;
+    }
+  }
+
+  .reading {
+    .article {
+      padding: 0 0 0.85em 0;
+    }
+    .article .sub-title {
+      font-weight: bolder;
+      color: $gold;
+    }
+    .article .author {
+      font-weight: 100;
+      font-size: 0.9em;
+      color: $light-grey;
+      padding: 0.1em 0 0 0;
+    }
+  }
+
 }

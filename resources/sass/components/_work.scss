@@ -1,0 +1,31 @@
+.work {
+  padding: 5em 0;
+  background: $good-black;
+  color: #fff;
+
+  .title {
+    padding: 0 0 1em 0;
+    opacity: 0.5;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .container .work-item {
+    width: 15em;
+    opacity: 0.4;
+    transition: .5s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.work-lightbox {
+  background: white;
+  color: $soothing-black;
+}

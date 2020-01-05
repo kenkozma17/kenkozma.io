@@ -310,6 +310,10 @@ html {
   }
 }
 
+.wrapper.extended {
+  width: 1350px;
+}
+
 .navigation {
   position: fixed;
   right: 0;
@@ -326,6 +330,10 @@ html {
 
 .navigation.sticky .nav-item {
   color: #191919;
+}
+
+.navigation.sticky .logo {
+  background: none !important;
 }
 
 .navigation.sticky .container {
@@ -361,6 +369,11 @@ html {
   padding: 0.6em 1.4em;
   -webkit-transition: 0.7s ease-in-out;
   transition: 0.7s ease-in-out;
+}
+
+.navigation .nav-item.logo {
+  background: rgba(29, 29, 29, 0.3);
+  border-radius: 3px;
 }
 
 .navigation .nav-item:hover {
@@ -437,6 +450,104 @@ html {
   color: #fff;
 }
 
+.about .title {
+  padding: 0 0 0.5em 0;
+}
+
+.about .section {
+  padding: 0 0 3em 0;
+}
+
+.about .section .container {
+  padding: 0 3em 0 0;
+}
+
+.about .bio .description {
+  font-size: 1.1em;
+  line-height: 1.38;
+  letter-spacing: 0.015em;
+}
+
+.about .bio span {
+  color: #178ED5;
+}
+
+.about .languages .skill-set {
+  padding: 0 0 0.85em 0;
+}
+
+.about .languages .skill-set .sub-title {
+  font-weight: bolder;
+}
+
+.about .languages .skill-set .skills {
+  font-weight: 100;
+  font-size: 0.9em;
+  color: #d7d7d7;
+  padding: 0.1em 0 0 0;
+}
+
+.about .languages .resume {
+  font-size: 0.9em;
+  color: #d7d7d7;
+}
+
+.about .social .social-icon {
+  width: 1.2em;
+  padding: 0 0.5em;
+}
+
+.about .reading .article {
+  padding: 0 0 0.85em 0;
+}
+
+.about .reading .article .sub-title {
+  font-weight: bolder;
+  color: #b4a892;
+}
+
+.about .reading .article .author {
+  font-weight: 100;
+  font-size: 0.9em;
+  color: #d7d7d7;
+  padding: 0.1em 0 0 0;
+}
+
+.work {
+  padding: 5em 0;
+  background: #121212;
+  color: #fff;
+}
+
+.work .title {
+  padding: 0 0 1em 0;
+  opacity: 0.5;
+}
+
+.work .container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.work .container .work-item {
+  width: 15em;
+  opacity: 0.4;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.work .container .work-item:hover {
+  opacity: 1;
+}
+
+.work-lightbox {
+  background: white;
+  color: #191919;
+}
+
 /* Typography **/
 
 /** Typography */
@@ -458,7 +569,12 @@ h1 {
 }
 
 h2 {
-  font: 300 2.5em "inter-regular", sans-serif;
+  font: 600 2.5em "inter-regular", sans-serif;
+  margin: 0;
+}
+
+h3 {
+  font: 600 1.8em "inter-regular", sans-serif;
   margin: 0;
 }
 
