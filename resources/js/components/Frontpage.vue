@@ -1,5 +1,5 @@
 <template>
-    <section class="front-page">
+    <section class="front-page" id="home">
         <div class="wrapper container">
             <div class="grid row">
                 <div class="col-6"></div>
@@ -15,6 +15,9 @@
                 </div>
             </div>
         </div>
-        <div class="pointer">Learn More <img src="/svg/down-arrow.svg" class="down-arrow" alt="This takes you to an amazing place"></div>
+        <a class="pointer" href="#about">
+            <span>Learn More</span>
+            <img src="/svg/down-arrow.svg" class="down-arrow" alt="This takes you to an amazing place">
+        </a>
     </section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="wrapper">
             <form id="form" @submit.prevent="submitContactForm">
                 <div class="container">

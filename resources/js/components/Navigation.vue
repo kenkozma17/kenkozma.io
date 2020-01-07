@@ -6,10 +6,10 @@
                     <a href="#" class="nav-item logo">Ken Kozma</a>
                 </div>
                 <div class="align-right">
-                    <a href="#" class="nav-item">Home</a>
-                    <a href="#" class="nav-item">About</a>
-                    <a href="#" class="nav-item">Work</a>
-                    <a href="#" class="nav-item">Contact</a>
+                    <a href="#home" class="nav-item">Home</a>
+                    <a href="#about" class="nav-item">About</a>
+                    <a href="#work" class="nav-item">Work</a>
+                    <a href="#contact" class="nav-item">Contact</a>
                 </div>
             </div>
         </div>

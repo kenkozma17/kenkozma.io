@@ -30844,7 +30844,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "about" }, [
+    return _c("section", { staticClass: "about", attrs: { id: "about" } }, [
       _c("div", { staticClass: "wrapper extended" }, [
         _c("div", { staticClass: "grid row section" }, [
           _c("div", { staticClass: "col-4 bio" }, [
@@ -30881,9 +30881,7 @@ var staticRenderFns = [
                 _c("div", { staticClass: "skill-set" }, [
                   _c("div", { staticClass: "sub-title" }, [_vm._v("Back-End")]),
                   _vm._v(" "),
-                  _c("div", { staticClass: "skills" }, [
-                    _vm._v("PHP, Laravel, .Net Core")
-                  ])
+                  _c("div", { staticClass: "skills" }, [_vm._v("PHP, Laravel")])
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "skill-set" }, [
@@ -30970,13 +30968,108 @@ var staticRenderFns = [
                 _c("div", { staticClass: "author" }, [
                   _vm._v("by Pattie Kozma")
                 ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "article" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "sub-title",
+                    attrs: {
+                      href:
+                        "//medium.com/better-programming/javascript-design-patterns-25f0faaaa15",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            JavaScript Promises: Zero To Hero Plus Cheat Sheet"
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "author" }, [
+                  _vm._v("by Soumyajit Pathak")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "article" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "sub-title",
+                    attrs: {
+                      href:
+                        "//blog.bitsrc.io/why-learning-webpack-is-important-as-front-end-developer-247bc0ca40bd",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("Why Webpack?")]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "author" }, [_vm._v("by Sonny Recio")])
               ])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-4" }, [
-            _c("div", { staticClass: "container" }, [
-              _c("h3", { staticClass: "title" }, [_vm._v("Links")])
+            _c("div", { staticClass: "container reading" }, [
+              _c("h3", { staticClass: "title" }, [
+                _vm._v("Essentials to life")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "article" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "sub-title",
+                    attrs: {
+                      href: "//www.youtube.com/watch?v=2ONCXOwIdx4",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("The Secret Life of Walter Mitty")]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "author" }, [
+                  _vm._v("directed by Ben Stiller")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "article" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "sub-title",
+                    attrs: {
+                      href:
+                        "//www.goodreads.com/book/show/106835.The_Intelligent_Investor",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("The Intelligent Investor")]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "author" }, [
+                  _vm._v("by Benjamin Graham")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "article" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "sub-title",
+                    attrs: {
+                      href: "//zenhabits.net/self-discipline/",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("A Guide to Developing the Self-Discipline Habit")]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "author" }, [_vm._v("by Leo Babauta")])
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -31076,7 +31169,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "contact" }, [
+  return _c("section", { staticClass: "contact", attrs: { id: "contact" } }, [
     _c("div", { staticClass: "wrapper" }, [
       _c(
         "form",
@@ -31170,7 +31263,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "front-page" }, [
+    return _c("section", { staticClass: "front-page", attrs: { id: "home" } }, [
       _c("div", { staticClass: "wrapper container" }, [
         _c("div", { staticClass: "grid row" }, [
           _c("div", { staticClass: "col-6" }),
@@ -31189,8 +31282,9 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "pointer" }, [
-        _vm._v("Learn More "),
+      _c("a", { staticClass: "pointer", attrs: { href: "#about" } }, [
+        _c("span", [_vm._v("Learn More")]),
+        _vm._v(" "),
         _c("img", {
           staticClass: "down-arrow",
           attrs: {
@@ -31240,19 +31334,19 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "align-right" }, [
-            _c("a", { staticClass: "nav-item", attrs: { href: "#" } }, [
+            _c("a", { staticClass: "nav-item", attrs: { href: "#home" } }, [
               _vm._v("Home")
             ]),
             _vm._v(" "),
-            _c("a", { staticClass: "nav-item", attrs: { href: "#" } }, [
+            _c("a", { staticClass: "nav-item", attrs: { href: "#about" } }, [
               _vm._v("About")
             ]),
             _vm._v(" "),
-            _c("a", { staticClass: "nav-item", attrs: { href: "#" } }, [
+            _c("a", { staticClass: "nav-item", attrs: { href: "#work" } }, [
               _vm._v("Work")
             ]),
             _vm._v(" "),
-            _c("a", { staticClass: "nav-item", attrs: { href: "#" } }, [
+            _c("a", { staticClass: "nav-item", attrs: { href: "#contact" } }, [
               _vm._v("Contact")
             ])
           ])
@@ -31289,36 +31383,34 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "work" }, [
+    return _c("section", { staticClass: "work", attrs: { id: "work" } }, [
       _c("div", { staticClass: "wrapper extended" }, [
         _c("h3", { staticClass: "title" }, [_vm._v("Recent Work")]),
         _vm._v(" "),
         _c("div", { staticClass: "grid row" }, [
           _c("div", { staticClass: "col-3" }, [
             _c("div", { staticClass: "container" }, [
-              _c("a", { attrs: { href: "#moody", "data-lity": "" } }, [
-                _c("img", {
-                  staticClass: "work-item",
-                  attrs: { src: "/svg/work/Moody.svg", alt: "Moody Bank" }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "lity-hide", attrs: { id: "moody" } }, [
-              _c("div", { staticClass: "work-lightbox" }, [
-                _vm._v(
-                  "\n                        Moodybank.com\n                    "
-                )
-              ])
+              _c(
+                "a",
+                { attrs: { href: "//moodybank.com", target: "_blank" } },
+                [
+                  _c("img", {
+                    staticClass: "work-item",
+                    attrs: { src: "/svg/work/Moody.svg", alt: "Moody Bank" }
+                  })
+                ]
+              )
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-3" }, [
             _c("div", { staticClass: "container" }, [
-              _c("img", {
-                staticClass: "work-item",
-                attrs: { src: "/svg/work/Core.svg", alt: "OKC CFO" }
-              })
+              _c("a", { attrs: { href: "//okccfo.com", target: "_blank" } }, [
+                _c("img", {
+                  staticClass: "work-item",
+                  attrs: { src: "/svg/work/Core.svg", alt: "OKC CFO" }
+                })
+              ])
             ])
           ]),
           _vm._v(" "),
@@ -43502,10 +43594,71 @@ module.exports = function(module) {
 
 var card = $(".card");
 $(document).on("mousemove", function (e) {
-  var ax = -($(window).innerWidth() / 2 - e.pageX) / 100;
-  var ay = ($(window).innerHeight() / 2 - e.pageY) / 50;
+  var ax = -($(window).innerWidth() / 2 - e.pageX) / 50;
+  var ay = ($(window).innerHeight() / 2 - e.pageY) / 20;
   card.attr("style", "transform: rotateY(" + ax + "deg)" + " rotateX(" + ay + "deg);-webkit-transform: " + " rotateY(" + ax + "deg)" + " rotateX(" + ay + "deg);-moz-transform: " + " rotateY(" + ax + "deg)" + " rotateX(" + ay + "deg)");
 });
+$(document).on("scroll", function (e) {
+  var homeHeight = $('#home').innerHeight();
+
+  if (window.pageYOffset > homeHeight / 2) {
+    card.css('transform', 'none');
+  }
+});
+
+/***/ }),
+
+/***/ "./resources/js/SmoothScroll.js":
+/*!**************************************!*\
+  !*** ./resources/js/SmoothScroll.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SmoothScroll; });
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var SmoothScroll =
+/*#__PURE__*/
+function () {
+  function SmoothScroll() {
+    _classCallCheck(this, SmoothScroll);
+
+    this.linkElem = $('a[href^="#"]');
+    this.setEventListeners();
+  }
+
+  _createClass(SmoothScroll, [{
+    key: "setEventListeners",
+    value: function setEventListeners() {
+      var _this = this;
+
+      this.linkElem.on('click', function (e) {
+        return _this.smoothScroll(e);
+      });
+    }
+  }, {
+    key: "smoothScroll",
+    value: function smoothScroll(e) {
+      e.preventDefault();
+      var target = e.currentTarget.hash;
+      $('html, body').stop().animate({
+        scrollTop: $(target).offset().top - 70
+      }, 1000);
+      return false;
+    }
+  }]);
+
+  return SmoothScroll;
+}();
+
+
 
 /***/ }),
 
@@ -43534,14 +43687,23 @@ new Vue({
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _SmoothScroll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SmoothScroll */ "./resources/js/SmoothScroll.js");
+
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./Spa */ "./resources/js/Spa.js");
 
 __webpack_require__(/*! ./3DHover */ "./resources/js/3DHover.js");
+
+__webpack_require__(/*! ./SmoothScroll */ "./resources/js/SmoothScroll.js");
+
+window.smoothScroll = new _SmoothScroll__WEBPACK_IMPORTED_MODULE_0__["default"]();
 
 /***/ }),
 

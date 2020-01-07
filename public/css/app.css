@@ -546,6 +546,25 @@ html {
 .work-lightbox {
   background: white;
   color: #191919;
+  padding: 2.5em;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+
+.work-lightbox .work-image-container,
+.work-lightbox .work-details {
+  padding: 0 1em;
+}
+
+.work-lightbox .work-image {
+  width: 450px;
+}
+
+.work-lightbox a {
+  color: #191919;
 }
 
 /* Typography **/

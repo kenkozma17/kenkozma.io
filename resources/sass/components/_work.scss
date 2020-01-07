@@ -28,4 +28,19 @@
 .work-lightbox {
   background: white;
   color: $soothing-black;
+  padding: 2.5em;
+  display: flex;
+  flex-direction: row;
+
+  .work-image-container, .work-details {
+    padding: 0 1em;
+  }
+
+  .work-image {
+    width: 450px;
+  }
+
+  a {
+    color: $soothing-black;
+  }
 }
