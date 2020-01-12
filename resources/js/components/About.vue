@@ -1,17 +1,17 @@
 <template>
-    <section class="about" id="about">
+    <section class="about overflow" id="about">
         <div class="wrapper extended">
             <div class="grid row section">
-                <div class="col-4 bio">
+                <div class="col-4 bio" data-aos="fade-right">
                     <div class="container">
                         <h3 class="title">— Hi, I'm <span>Ken</span>, a full-stack web developer.</h3>
-                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat.</div>
+                        <div class="description">
+                            I've been building web applications since 2014 and have never looked back. I am very passionate about
+                            development and get the most joy from front-end work. <br><br> I play football ⚽, love learning and traveling the world!
+                        </div>
                     </div>
                 </div>
-                <div class="col-4 languages">
+                <div class="col-4 languages" data-aos="fade-right" data-aos-delay="150">
                     <div class="container">
                         <h3 class="title">What I do</h3>
                         <div class="skills-container">
@@ -43,12 +43,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 spotify">
+                <div class="col-4 spotify" data-aos="fade-right" data-aos-delay="250">
                     <iframe src="https://open.spotify.com/embed/playlist/7jyHZHDWxDh7kHJTjaQ0oV" width="400" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
             <div class="grid row section">
-                <div class="col-4 reading">
+                <div class="col-4 reading" data-aos="fade-left">
                     <div class="container">
                         <h3 class="title">Reading List</h3>
                         <div class="article">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="fade-left" data-aos-delay="150">
                     <div class="container reading">
                         <h3 class="title">Essentials to life</h3>
                         <div class="article">
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 social">
+                <div class="col-4 social" data-aos="fade-left" data-aos-delay="250">
                     <div class="container">
                         <h3 class="title">Stay Connected</h3>
                         <a href="//facebook.com/kenkozma21" target="_blank"><img class="social-icon" src="/svg/facebook.svg" alt="Facebook"></a>

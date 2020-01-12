@@ -13,6 +13,10 @@ body, html {
   height: 100%;
 }
 
+.overflow {
+  overflow-x: hidden;
+}
+
 .main {
   height: 100%;
   position: relative;
@@ -41,6 +45,9 @@ body, html {
     .content .sub-title {
       font-size: 1.5em;
       transform: translateZ(50px);
+      @include mq-max() {
+        font-size: 1em;
+      }
     }
     .content .title {
       transform: translateZ(100px);
@@ -53,6 +60,9 @@ body, html {
       flex-direction: column;
       align-items: center;
       cursor: pointer;
+      @include mq-max() {
+        bottom: 40px;
+      }
     }
 
     .pointer .down-arrow {

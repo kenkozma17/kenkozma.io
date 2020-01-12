@@ -13,6 +13,9 @@ h1 {
   font: 300 5em $tertiary-font;
   letter-spacing: 2px;
   margin: 0;
+  @include mq-max() {
+    font-size: 2em;
+  }
 }
 
 h2 {

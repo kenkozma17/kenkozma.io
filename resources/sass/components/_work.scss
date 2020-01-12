@@ -2,6 +2,9 @@
   padding: 5em 0;
   background: $good-black;
   color: #fff;
+  @include mq-max() {
+    padding: 2.5em 0;
+  }
 
   .title {
     padding: 0 0 1em 0;
@@ -12,12 +15,18 @@
     display: flex;
     align-items: center;
     height: 100%;
+    @include mq-max() {
+      justify-content: center;
+    }
   }
 
   .container .work-item {
     width: 15em;
     opacity: 0.4;
     transition: .5s ease-in-out;
+    @include mq-max() {
+      padding: 1em 0;
+    }
 
     &:hover {
       opacity: 1;

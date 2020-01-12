@@ -2,6 +2,9 @@
   padding: 5em 0;
   background: $soothing-black;
   color: #fff;
+  @include mq-max() {
+    padding: 2.5em 0;
+  }
 
   .title {
     padding: 0 0 0.5em 0;
@@ -9,12 +12,18 @@
 
   .section {
     padding: 0 0 3em 0;
+    @include mq-max() {
+      padding: 0;
+    }
   }
   .section .container {
     padding: 0 3em 0 0;
   }
 
   .bio {
+    @include mq-max() {
+      padding: 1.5em 0;
+    }
     .description {
       font-size: 1.1em;
       line-height: 1.38;
@@ -26,6 +35,9 @@
   }
 
   .languages {
+    @include mq-max() {
+      padding: 1.5em 0;
+    }
     .skill-set {
       padding: 0 0 0.85em 0;
     }
@@ -44,7 +56,19 @@
     }
   }
 
+  .spotify {
+    @include mq-max() {
+      padding: 1.5em 0;
+    }
+    iframe {
+        width: 100%;
+    }
+  }
+
   .social {
+    @include mq-max() {
+      padding: 1.5em 0;
+    }
     .social-icon {
       width: 1.2em;
       padding: 0 0.5em;
@@ -52,6 +76,9 @@
   }
 
   .reading {
+    @include mq-max() {
+      padding: 1.5em 0;
+    }
     .article {
       padding: 0 0 0.85em 0;
     }

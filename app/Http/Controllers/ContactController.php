@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use Illuminate\Support\Facades\Validator;
 
 class ContactController extends Controller
 {
@@ -16,14 +17,25 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         try {
+
             # Grab data from form
             $data = $request->all();
             $data = $data['data'];
 
+            # Validation
+            $validator = Validator::make($data, [
+                'name' => 'required',
+                'email' => 'email|required',
+                'subject' => 'required',
+                'message' => 'required'
+            ]);
+
+            if($validator->fails()) {
+                return response()->json(['submission' => false, 'validation' => $validator->errors()]);
+            }
+
             # Create and store new Contact
-            $contact = new Contact();
-            $contact->fill($data);
-            $contact->save();
+            $contact = Contact::create($data);
 
             return response()->json(['submission' => true]);
         } catch (\Exception $exception) {
