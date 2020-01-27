@@ -61,11 +61,13 @@
                             $('.success-screen').removeClass('show');
                         }, 10000);
                     } else {
-                        validation = Object.keys(response.data.validation);
-                        $('input, textarea').removeClass('error');
-                        validation.forEach((item) => {
-                            $('input[name="' + item + '"], textarea[name="' + item + '"]').addClass('error');
-                        });
+                        if(response.data.validation) {
+                            validation = Object.keys(response.data.validation);
+                            $('input, textarea').removeClass('error');
+                            validation.forEach((item) => {
+                                $('input[name="' + item + '"], textarea[name="' + item + '"]').addClass('error');
+                            });
+                        }
                     }
                 }).catch(function (error) {
                     console.log(error);
