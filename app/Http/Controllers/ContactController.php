@@ -39,7 +39,7 @@ class ContactController extends Controller
 
             return response()->json(['submission' => true]);
         } catch (\Exception $exception) {
-            return response()->json(['submission' => false]);
+            return response()->json(['submission' => false, 'error' => $exception->getMessage()]);
         }
     }
 
