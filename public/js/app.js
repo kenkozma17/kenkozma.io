@@ -31634,9 +31634,14 @@ var staticRenderFns = [
                       ])
                     ]),
                     _vm._v(" "),
-                    _c("a", { staticClass: "resume", attrs: { href: "#" } }, [
-                      _vm._v("Resume →")
-                    ])
+                    _c(
+                      "a",
+                      {
+                        staticClass: "resume",
+                        attrs: { href: "/pdf/Resume.pdf", target: "_blank" }
+                      },
+                      [_vm._v("Resume →")]
+                    )
                   ])
                 ])
               ]

@@ -39,7 +39,7 @@
                                 <div class="sub-title">Core Competencies</div>
                                 <div class="skills">MVC Architecture, OOP Principles, Problem Solving, Singe-Page-Apps </div>
                             </div>
-                            <a class="resume" href="#">Resume →</a>
+                            <a class="resume" href="/pdf/Resume.pdf" target="_blank">Resume →</a>
                         </div>
                     </div>
                 </div>
