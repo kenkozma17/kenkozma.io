@@ -97,6 +97,11 @@
 
     .message {
       padding: 1em;
+      @include mq-max() {
+        h2 {
+          font-size: 1.5em;
+        }
+      }
     }
   }
 }

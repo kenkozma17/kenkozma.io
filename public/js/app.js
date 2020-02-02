@@ -31986,7 +31986,7 @@ var staticRenderFns = [
           _c("label", { attrs: { for: "name" } }, [_vm._v("Name")]),
           _vm._v(" "),
           _c("input", {
-            attrs: { type: "text", name: "name", placeholder: "John Mayor" }
+            attrs: { type: "text", name: "name", placeholder: "John Mayer" }
           })
         ]),
         _vm._v(" "),
