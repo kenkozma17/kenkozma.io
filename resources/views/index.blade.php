@@ -16,6 +16,17 @@
 
         <? # Fonts ?>
         <link rel="stylesheet" href="https://use.typekit.net/kyv3ntu.css">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157510049-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-157510049-1');
+        </script>
+
     </head>
     <body>
 
