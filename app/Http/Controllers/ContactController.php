@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Validator;
+use App\Mail\Contact as ContactMail;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -36,6 +38,9 @@ class ContactController extends Controller
 
             # Create and store new Contact
             $contact = Contact::create($data);
+
+            # Send email to yours truly
+            Mail::to(config('mail.from.address'))->send(new ContactMail($contact));
 
             return response()->json(['submission' => true]);
         } catch (\Exception $exception) {
