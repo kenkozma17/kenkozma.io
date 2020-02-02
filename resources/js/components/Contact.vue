@@ -6,7 +6,7 @@
                     <h2 class="title">Get in touch.</h2>
                     <div class="field">
                         <label for="name">Name</label>
-                        <input type="text" name="name" placeholder="John Mayor">
+                        <input type="text" name="name" placeholder="John Mayer">
                     </div>
                     <div class="field">
                         <label for="email">Email Address</label>
