@@ -4,10 +4,14 @@
             <div class="grid row section">
                 <div class="col-4 bio" data-aos="fade-right">
                     <div class="container">
-                        <h3 class="title">— Hi, I'm <span>Ken</span>, a full-stack web developer.</h3>
+                        <h3 class="title">— Hi, I'm <span class="blue-hl">Ken</span>, a full-stack web developer.</h3>
                         <div class="description">
-                            I've been building web applications since 2014 and have never looked back. I am very passionate about
-                            development and get the most joy from front-end work. <br><br> I play football ⚽, love learning and traveling the world!
+                            I've been building websites since <span class="blue-hl">2014</span> and have never looked back. I am very passionate about
+                            development and get the most joy from <span class="blue-hl">front-end</span> work.
+                            <br><br>
+                            I currently work at <a class="blue-hl" href="//liquid.fish">liquidfish</a> and am enjoying life here in Oklahoma City!
+                            <br><br>
+                            I play football ⚽, love to learn and traveling the world!
                         </div>
                     </div>
                 </div>
@@ -33,7 +37,7 @@
                             </div>
                             <div class="skill-set">
                                 <div class="sub-title">Versioning and other tools</div>
-                                <div class="skills">Git, Github, Bitbucket, Sketch, Trello, Mavenlink, Jira</div>
+                                <div class="skills">Docker, Homestead, Git, Sketch, Trello, Mavenlink, Jira</div>
                             </div>
                             <div class="skill-set">
                                 <div class="sub-title">Core Competencies</div>
@@ -68,7 +72,7 @@
                 </div>
                 <div class="col-4" data-aos="fade-left" data-aos-delay="150">
                     <div class="container reading">
-                        <h3 class="title">Essentials to life</h3>
+                        <h3 class="title">Essentials</h3>
                         <div class="article">
                             <a class="sub-title" href="//www.youtube.com/watch?v=2ONCXOwIdx4" target="_blank">The Secret Life of Walter Mitty</a>
                             <div class="author">directed by Ben Stiller</div>

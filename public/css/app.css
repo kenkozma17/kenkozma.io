@@ -442,7 +442,7 @@ html {
   border-radius: 3px;
 }
 
-.navigation .nav-item:hover {
+.navigation .nav-item:not(.logo):hover {
   background: rgba(222, 222, 222, 0.2);
 }
 
@@ -629,7 +629,7 @@ html {
   letter-spacing: 0.015em;
 }
 
-.about .bio span {
+.about .bio .blue-hl {
   color: #178ED5;
 }
 
@@ -782,6 +782,7 @@ html {
 a {
   text-decoration: none;
   color: #fff;
+  font-weight: 600;
 }
 
 p {

@@ -3,7 +3,7 @@
         <div class="wrapper">
             <div class="container">
                 <div class="align-left">
-                    <a href="#" class="nav-item logo">Ken Kozma</a>
+                    <a href="#home" class="nav-item logo">Ken Kozma</a>
                 </div>
                 <div class="align-right">
                     <a href="#home" class="nav-item">Home</a>

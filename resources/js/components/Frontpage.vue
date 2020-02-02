@@ -7,8 +7,8 @@
                     <div class="content card">
                         <h1 class="title">Ken Kozma</h1>
                         <div class="sub-title">
-                            A passionate full-stack web developer born in Saudi Arabia, raised in the Philippines and currently working in Oklahoma City.
-                            I like building web applications.
+                            I'm a full-stack web developer based in Oklahoma City with roots on a small Eastern Island in the Philippines called Catanduanes.
+                            I specialize in building high-quality websites and applications.
                         </div>
                     </div>
                 </div>

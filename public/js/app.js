@@ -31541,18 +31541,40 @@ var staticRenderFns = [
                 _c("div", { staticClass: "container" }, [
                   _c("h3", { staticClass: "title" }, [
                     _vm._v("— Hi, I'm "),
-                    _c("span", [_vm._v("Ken")]),
+                    _c("span", { staticClass: "blue-hl" }, [_vm._v("Ken")]),
                     _vm._v(", a full-stack web developer.")
                   ]),
                   _vm._v(" "),
                   _c("div", { staticClass: "description" }, [
                     _vm._v(
-                      "\n                        I've been building web applications since 2014 and have never looked back. I am very passionate about\n                        development and get the most joy from front-end work. "
+                      "\n                        I've been building websites since "
+                    ),
+                    _c("span", { staticClass: "blue-hl" }, [_vm._v("2014")]),
+                    _vm._v(
+                      " and have never looked back. I am very passionate about\n                        development and get the most joy from "
+                    ),
+                    _c("span", { staticClass: "blue-hl" }, [
+                      _vm._v("front-end")
+                    ]),
+                    _vm._v(" work.\n                        "),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v("\n                        I currently work at "),
+                    _c(
+                      "a",
+                      {
+                        staticClass: "blue-hl",
+                        attrs: { href: "//liquid.fish" }
+                      },
+                      [_vm._v("liquidfish")]
+                    ),
+                    _vm._v(
+                      " and am enjoying life here in Oklahoma City!\n                        "
                     ),
                     _c("br"),
                     _c("br"),
                     _vm._v(
-                      " I play football ⚽, love learning and traveling the world!\n                    "
+                      "\n                        I play football ⚽, love to learn and traveling the world!\n                    "
                     )
                   ])
                 ])
@@ -31617,7 +31639,7 @@ var staticRenderFns = [
                       _vm._v(" "),
                       _c("div", { staticClass: "skills" }, [
                         _vm._v(
-                          "Git, Github, Bitbucket, Sketch, Trello, Mavenlink, Jira"
+                          "Docker, Homestead, Git, Sketch, Trello, Mavenlink, Jira"
                         )
                       ])
                     ]),
@@ -31752,9 +31774,7 @@ var staticRenderFns = [
               },
               [
                 _c("div", { staticClass: "container reading" }, [
-                  _c("h3", { staticClass: "title" }, [
-                    _vm._v("Essentials to life")
-                  ]),
+                  _c("h3", { staticClass: "title" }, [_vm._v("Essentials")]),
                   _vm._v(" "),
                   _c("div", { staticClass: "article" }, [
                     _c(
@@ -31826,6 +31846,8 @@ var staticRenderFns = [
               },
               [
                 _c("div", { staticClass: "container" }, [
+                  _c("span", [_vm._v("K")]),
+                  _vm._v(" "),
                   _c("h3", { staticClass: "title" }, [
                     _vm._v("Stay Connected")
                   ]),
@@ -32068,7 +32090,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("div", { staticClass: "sub-title" }, [
                     _vm._v(
-                      "\n                        A passionate full-stack web developer born in Saudi Arabia, raised in the Philippines and currently working in Oklahoma City.\n                        I like building web applications.\n                    "
+                      "\n                        I'm a full-stack web developer based in Oklahoma City with roots on a small Eastern Island in the Philippines called Catanduanes.\n                        I specialize in building high-quality websites and applications.\n                    "
                     )
                   ])
                 ])
@@ -32124,9 +32146,11 @@ var staticRenderFns = [
       _c("div", { staticClass: "wrapper" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "align-left" }, [
-            _c("a", { staticClass: "nav-item logo", attrs: { href: "#" } }, [
-              _vm._v("Ken Kozma")
-            ])
+            _c(
+              "a",
+              { staticClass: "nav-item logo", attrs: { href: "#home" } },
+              [_vm._v("Ken Kozma")]
+            )
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "align-right" }, [
