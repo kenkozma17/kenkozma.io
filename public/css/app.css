@@ -272,6 +272,12 @@ html {
   background: rgba(107, 107, 107, 0.3);
 }
 
+@media (max-width: 768px) {
+  .main .front-page .content {
+    background: rgba(107, 107, 107, 0.6);
+  }
+}
+
 .main .front-page .content .sub-title {
   font-size: 1.5em;
   -webkit-transform: translateZ(50px);

@@ -31846,8 +31846,6 @@ var staticRenderFns = [
               },
               [
                 _c("div", { staticClass: "container" }, [
-                  _c("span", [_vm._v("K")]),
-                  _vm._v(" "),
                   _c("h3", { staticClass: "title" }, [
                     _vm._v("Stay Connected")
                   ]),
