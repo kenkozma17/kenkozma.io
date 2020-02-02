@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aac5acb3-8f40-48ef-8221-7afc3d8f8017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/fonts/ChesterSans-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Frontpage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Frontpage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/partials/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/partials/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+            <state relative-caret-position="47">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -66,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/About.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+            <state relative-caret-position="3588">
+              <caret line="92" column="132" lean-forward="true" selection-start-line="92" selection-start-column="132" selection-end-line="92" selection-end-column="132" />
             </state>
           </provider>
         </entry>
@@ -78,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Frontpage.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="10" selection-end-column="92" />
+            <state relative-caret-position="77">
+              <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -146,6 +136,7 @@
       <find>body</find>
       <find>font-face</find>
       <find>other</find>
+      <find>life</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -183,7 +174,6 @@
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/public/svg/work/core.svg" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Work.vue" />
         <option value="$PROJECT_DIR$/resources/js/SmoothScroll.js" />
         <option value="$PROJECT_DIR$/resources/js/3DHover.js" />
@@ -201,6 +191,7 @@
         <option value="$PROJECT_DIR$/resources/sass/_vars.scss" />
         <option value="$PROJECT_DIR$/resources/sass/partials/_typography.scss" />
         <option value="$PROJECT_DIR$/resources/js/components/About.vue" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
   </component>
@@ -439,12 +430,12 @@
       <workItem from="1580084725558" duration="1380000" />
       <workItem from="1580270904620" duration="438000" />
       <workItem from="1580440403280" duration="607000" />
-      <workItem from="1580599545675" duration="2511000" />
+      <workItem from="1580599545675" duration="2756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83109000" />
+    <option name="totallyTimeSpent" value="83354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
@@ -728,20 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Frontpage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="10" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/components/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -768,8 +745,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/About.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="90" column="43" selection-start-line="90" selection-start-column="43" selection-end-line="90" selection-end-column="43" />
+        <state relative-caret-position="3588">
+          <caret line="92" column="132" lean-forward="true" selection-start-line="92" selection-start-column="132" selection-end-line="92" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Frontpage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
