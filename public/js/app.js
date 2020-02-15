@@ -32232,7 +32232,25 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-3" }),
+          _c("div", { staticClass: "col-3" }, [
+            _c("div", { staticClass: "container" }, [
+              _c(
+                "a",
+                {
+                  attrs: { href: "//metalsmithmentors.com", target: "_blank" }
+                },
+                [
+                  _c("img", {
+                    staticClass: "work-item",
+                    attrs: {
+                      src: "/svg/work/Metalsmith.svg",
+                      alt: "Metalsmith Mentors"
+                    }
+                  })
+                ]
+              )
+            ])
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "col-3" })
         ])

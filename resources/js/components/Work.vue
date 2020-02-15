@@ -16,7 +16,11 @@
                         <a href="//okccfo.com" target="_blank"><img class="work-item" src="/svg/work/Core.svg" alt="OKC CFO"></a>
                     </div>
                 </div>
-                <div class="col-3"></div>
+                <div class="col-3">
+                    <div class="container">
+                        <a href="//metalsmithmentors.com" target="_blank"><img class="work-item" src="/svg/work/Metalsmith.svg" alt="Metalsmith Mentors"></a>
+                    </div>
+                </div>
                 <div class="col-3"></div>
             </div>
         </div>
