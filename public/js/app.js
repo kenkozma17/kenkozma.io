@@ -31734,7 +31734,7 @@ var staticRenderFns = [
                       },
                       [
                         _vm._v(
-                          "\n                            JavaScript Promises: Zero To Hero Plus Cheat Sheet"
+                          "\n                            JavaScript Design Patterns"
                         )
                       ]
                     ),

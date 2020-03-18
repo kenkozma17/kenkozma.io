@@ -61,7 +61,7 @@
                         </div>
                         <div class="article">
                             <a class="sub-title" href="//medium.com/better-programming/javascript-design-patterns-25f0faaaa15" target="_blank">
-                                JavaScript Promises: Zero To Hero Plus Cheat Sheet</a>
+                                JavaScript Design Patterns</a>
                             <div class="author">by Soumyajit Pathak</div>
                         </div>
                         <div class="article">
