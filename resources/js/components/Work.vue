@@ -21,7 +21,31 @@
                         <a href="//metalsmithmentors.com" target="_blank"><img class="work-item" src="/svg/work/Metalsmith.svg" alt="Metalsmith Mentors"></a>
                     </div>
                 </div>
-                <div class="col-3"></div>
+                <div class="col-3">
+                    <div class="container">
+                        <a href="//simonemanuel.co" target="_blank"><img class="work-item" src="/svg/work/simone-logo.svg" alt="Simone Manuel"></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="container">
+                        <a href="//kirkpatrickconnect.com" target="_blank"><img class="work-item" src="/svg/work/kpc-logo.svg" alt="Kirkpatrick Connect"></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="container">
+                        <a href="//viracspecial.com" target="_blank"><img class="work-item" src="/svg/work/vs-logo.png" alt="Virac Special"></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="container">
+                        <a href="//reservations.okcontemp.org/events" target="_blank"><img class="work-item" src="/svg/work/okcontemp-logo.svg" alt="OK Contemporary Reservation System"></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="container">
+                        <a href="//kirkpatrickbank.com/" target="_blank"><img class="work-item" src="/svg/work/kpb-logo.svg" alt="Kirkpatrick Bank"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

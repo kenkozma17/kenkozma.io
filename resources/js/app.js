@@ -6,9 +6,9 @@ AOS.init({
     duration: 1000
 });
 
-require('./bootstrap');
+// require('./bootstrap');
 require('./Spa');
 require('./3DHover');
 require('./SmoothScroll');
 
-window.smoothScroll = new SmoothScroll()
+window.smoothScroll = new SmoothScroll();

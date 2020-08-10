@@ -25,9 +25,6 @@
                     </div>
                 </div>
                 <div class="success-screen">
-                    <div class="gif">
-                        <img src="/gif/Ramos.gif">
-                    </div>
                     <div class="message">
                         <h2>Thank you for reaching out! <br /> I will get back to you as soon as I can!</h2>
                     </div>
