@@ -7,7 +7,7 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: flex-start;
     }
   }
 
@@ -21,7 +21,7 @@
   /** Columns **/
   [class*="col-"] {
     position: relative;
-    margin-right: auto; // align flexbox items to the left after they wrap
+    //margin-right: auto; // align flexbox items to the left after they wrap
     flex: 1;
   }
   @for $i from 1 through $total-cols {

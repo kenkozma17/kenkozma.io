@@ -21,11 +21,11 @@
                         <a href="//metalsmithmentors.com" target="_blank"><img class="work-item" src="/svg/work/Metalsmith.svg" alt="Metalsmith Mentors"></a>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="container">
-                        <a href="//simonemanuel.co" target="_blank"><img class="work-item" src="/svg/work/simone-logo.svg" alt="Simone Manuel"></a>
-                    </div>
-                </div>
+<!--                <div class="col-3">-->
+<!--                    <div class="container">-->
+<!--                        <a href="//simonemanuel.co" target="_blank"><img class="work-item" src="/svg/work/simone-logo.svg" alt="Simone Manuel"></a>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="col-3">
                     <div class="container">
                         <a href="//kirkpatrickconnect.com" target="_blank"><img class="work-item" src="/svg/work/kpc-logo.svg" alt="Kirkpatrick Connect"></a>
