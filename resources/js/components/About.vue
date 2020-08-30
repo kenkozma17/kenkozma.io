@@ -41,9 +41,11 @@
                             </div>
                             <div class="skill-set">
                                 <div class="sub-title">Core Competencies</div>
-                                <div class="skills">MVC Architecture, OOP Principles, Problem Solving, Singe-Page-Apps </div>
+                                <div class="skills">MVC Architecture, OOP Principles, Problem Solving, Single-Page-Apps </div>
                             </div>
-                            <a class="resume" href="/pdf/Resume.pdf" target="_blank">Resume →</a>
+                            <div class="skill-set">
+                                <a class="resume sub-title" href="/pdf/Resume.pdf" target="_blank">Resume →</a>
+                            </div>
                         </div>
                     </div>
                 </div>
